@@ -1,153 +1,155 @@
 from classPokemon import Pokemon
 
-bulbasaur = Pokemon("Bulbasaur", 49, 45, 45)
-ivysaur = Pokemon("Ivysaur", 62, 60, 60)
-venusaur = Pokemon("Venusaur", 82, 80, 80)
-charmander = Pokemon("Charmander", 52, 65, 39)
-charmeleon = Pokemon("Charmeleon", 64, 80, 58)
-charizard = Pokemon("Charizard", 84, 100, 78)
-squirtle = Pokemon("Squirtle", 48, 43, 44)
-wartortle = Pokemon("Wartortle", 63, 58, 59)
-blastoise = Pokemon("Blastoise", 83, 78, 79)
-caterpie = Pokemon("Caterpie", 30, 45, 45)
-metapod = Pokemon("Metapod", 20, 30, 50)
-butterfree = Pokemon("Butterfree", 45, 70, 60)
-weedle = Pokemon("Weedle", 35, 50, 40)
-kakuna = Pokemon("Kakuna", 25, 35, 45)
-beedrill = Pokemon("Beedrill", 80, 75, 65)
-pidgey = Pokemon("Pidgey", 45, 56, 40)
-pidgeotto = Pokemon("Pidgeotto", 60, 71, 63)
-pidgeot = Pokemon("Pidgeot", 80, 91, 83)
-rattata = Pokemon("Rattata", 56, 72, 30)
-raticate = Pokemon("Raticate", 81, 97, 55)
-spearow = Pokemon("Spearow", 60, 70, 40)
-fearow = Pokemon("Fearow", 90, 100, 65)
-ekans = Pokemon("Ekans", 60, 55, 35)
-arbok = Pokemon("Arbok", 85, 80, 60)
-pikachu = Pokemon("Pikachu", 55, 90, 35)
-raichu = Pokemon("Raichu", 90, 110, 60)
-sandshrew = Pokemon("Sandshrew", 75, 40, 50)
-sandslash = Pokemon("Sandslash", 100, 65, 75)
-nidoran_f = Pokemon("Nidoran♀", 47, 41, 55)
-nidorina = Pokemon("Nidorina", 62, 56, 70)
-nidoqueen = Pokemon("Nidoqueen", 82, 76, 90)
-nidoran_m = Pokemon("Nidoran♂", 57, 50, 46)
-nidorino = Pokemon("Nidorino", 72, 65, 61)
-nidoking = Pokemon("Nidoking", 92, 85, 81)
-clefairy = Pokemon("Clefairy", 45, 35, 70)
-clefable = Pokemon("Clefable", 70, 60, 95)
-vulpix = Pokemon("Vulpix", 41, 65, 38)
-ninetales = Pokemon("Ninetales", 76, 100, 73)
-jigglypuff = Pokemon("Jigglypuff", 45, 20, 115)
-wigglytuff = Pokemon("Wigglytuff", 70, 45, 140)
-zubat = Pokemon("Zubat", 45, 55, 40)
-golbat = Pokemon("Golbat", 80, 90, 75)
-oddish = Pokemon("Oddish", 50, 30, 45)
-gloom = Pokemon("Gloom", 65, 40, 60)
-vileplume = Pokemon("Vileplume", 80, 50, 75)
-paras = Pokemon("Paras", 70, 25, 35)
-parasect = Pokemon("Parasect", 95, 30, 60)
-venonat = Pokemon("Venonat", 55, 45, 60)
-venomoth = Pokemon("Venomoth", 65, 90, 70)
-diglett = Pokemon("Diglett", 55, 95, 10)
-dugtrio = Pokemon("Dugtrio", 80, 120, 35)
-meowth = Pokemon("Meowth", 45, 90, 40)
-persian = Pokemon("Persian", 70, 115, 65)
-psyduck = Pokemon("Psyduck", 52, 55, 50)
-golduck = Pokemon("Golduck", 82, 85, 80)
-mankey = Pokemon("Mankey", 80, 70, 40)
-primeape = Pokemon("Primeape", 105, 95, 65)
-growlithe = Pokemon("Growlithe", 70, 60, 55)
-arcanine = Pokemon("Arcanine", 110, 95, 90)
-poliwag = Pokemon("Poliwag", 50, 90, 40)
-poliwhirl = Pokemon("Poliwhirl", 65, 90, 65)
-poliwrath = Pokemon("Poliwrath", 85, 70, 90)
-abra = Pokemon("Abra", 20, 90, 25)
-kadabra = Pokemon("Kadabra", 35, 105, 40)
-alakazam = Pokemon("Alakazam", 50, 120, 55)
-machop = Pokemon("Machop", 80, 35, 70)
-machoke = Pokemon("Machoke", 100, 45, 80)
-machamp = Pokemon("Machamp", 130, 55, 90)
-bellsprout = Pokemon("Bellsprout", 75, 40, 50)
-weepinbell = Pokemon("Weepinbell", 90, 55, 65)
-victreebel = Pokemon("Victreebel", 105, 70, 80)
-tentacool = Pokemon("Tentacool", 40, 70, 40)
-tentacruel = Pokemon("Tentacruel", 70, 100, 80)
-geodude = Pokemon("Geodude", 80, 20, 40)
-graveler = Pokemon("Graveler", 95, 35, 55)
-golem = Pokemon("Golem", 110, 45, 80)
-ponyta = Pokemon("Ponyta", 85, 90, 50)
-rapidash = Pokemon("Rapidash", 100, 105, 65)
-slowpoke = Pokemon("Slowpoke", 65, 15, 90)
-slowbro = Pokemon("Slowbro", 75, 30, 95)
-magnemite = Pokemon("Magnemite", 95, 45, 25)
-magneton = Pokemon("Magneton", 120, 70, 50)
-farfetchd = Pokemon("Farfetch'd", 90, 60, 52)
-doduo = Pokemon("Doduo", 85, 75, 35)
-dodrio = Pokemon("Dodrio", 110, 100, 60)
-seel = Pokemon("Seel", 45, 45, 65)
-dewgong = Pokemon("Dewgong", 70, 70, 90)
-grimer = Pokemon("Grimer", 80, 25, 80)
-muk = Pokemon("Muk", 105, 50, 105)
-shellder = Pokemon("Shellder", 65, 40, 30)
-cloyster = Pokemon("Cloyster", 95, 70, 50)
-gastly = Pokemon("Gastly", 35, 80, 30)
-haunter = Pokemon("Haunter", 50, 95, 45)
-gengar = Pokemon("Gengar", 65, 110, 60)
-onix = Pokemon("Onix", 45, 70, 35)
-drowzee = Pokemon("Drowzee", 48, 42, 60)
-hypno = Pokemon("Hypno", 73, 67, 85)
-krabby = Pokemon("Krabby", 105, 50, 30)
-kingler = Pokemon("Kingler", 130, 75, 55)
-voltorb = Pokemon("Voltorb", 30, 100, 40)
-electrode = Pokemon("Electrode", 50, 140, 60)
-exeggcute = Pokemon("Exeggcute", 40, 40, 60)
-exeggutor = Pokemon("Exeggutor", 95, 55, 95)
-cubone = Pokemon("Cubone", 50, 35, 50)
-marowak = Pokemon("Marowak", 80, 45, 60)
-hitmonlee = Pokemon("Hitmonlee", 120, 87, 50)
-hitmonchan = Pokemon("Hitmonchan", 105, 76, 50)
-lickitung = Pokemon("Lickitung", 55, 30, 90)
-koffing = Pokemon("Koffing", 65, 35, 40)
-weezing = Pokemon("Weezing", 90, 60, 65)
-rhyhorn = Pokemon("Rhyhorn", 85, 25, 80)
-rhydon = Pokemon("Rhydon", 130, 40, 105)
-chansey = Pokemon("Chansey", 5, 50, 250)
-tangela = Pokemon("Tangela", 55, 60, 65)
-kangaskhan = Pokemon("Kangaskhan", 95, 90, 105)
-horsea = Pokemon("Horsea", 40, 60, 30)
-seadra = Pokemon("Seadra", 65, 85, 55)
-goldeen = Pokemon("Goldeen", 67, 63, 45)
-seaking = Pokemon("Seaking", 92, 68, 80)
-staryu = Pokemon("Staryu", 45, 85, 30)
-starmie = Pokemon("Starmie", 75, 115, 60)
-mrmime = Pokemon("Mr. Mime", 45, 90, 40)
-scyther = Pokemon("Scyther", 110, 105, 70)
-jynx = Pokemon("Jynx", 50, 95, 65)
-electabuzz = Pokemon("Electabuzz", 83, 105, 65)
-magmar = Pokemon("Magmar", 95, 93, 65)
-pinsir = Pokemon("Pinsir", 125, 85, 65)
-tauros = Pokemon("Tauros", 100, 110, 75)
-magikarp = Pokemon("Magikarp", 10, 80, 20)
-gyarados = Pokemon("Gyarados", 125, 81, 95)
-lapras = Pokemon("Lapras", 85, 60, 130)
-ditto = Pokemon("Ditto", 48, 48, 48)
-eevee = Pokemon("Eevee", 55, 55, 55)
-vaporeon = Pokemon("Vaporeon", 65, 65, 130)
-jolteon = Pokemon("Jolteon", 65, 130, 65)
-flareon = Pokemon("Flareon", 130, 65, 65)
-porygon = Pokemon("Porygon", 60, 40, 65)
-omanyte = Pokemon("Omanyte", 40, 35, 35)
-omastar = Pokemon("Omastar", 60, 55, 70)
-kabuto = Pokemon("Kabuto", 80, 55, 30)
-kabutops = Pokemon("Kabutops", 115, 80, 60)
-aerodactyl = Pokemon("Aerodactyl", 105, 130, 80)
-snorlax = Pokemon("Snorlax", 110, 30, 160)
-articuno = Pokemon("Articuno", 85, 85, 90)
-zapdos = Pokemon("Zapdos", 90, 100, 90)
-moltres = Pokemon("Moltres", 100, 90, 90)
-dratini = Pokemon("Dratini", 64, 50, 41)
-dragonair = Pokemon("Dragonair", 84, 70, 61)
-dragonite = Pokemon("Dragonite", 134, 80, 91)
-mewtwo = Pokemon("Mewtwo", 110, 130, 106)
-mew = Pokemon("Mew", 100, 100, 100)
+pokedex = [
+    Pokemon("Bulbasaur", 49, 45, 45),
+    Pokemon("Ivysaur", 62, 60, 60),
+    Pokemon("Venusaur", 82, 80, 80),
+    Pokemon("Charmander", 52, 65, 39),
+    Pokemon("Charmeleon", 64, 80, 58),
+    Pokemon("Charizard", 84, 100, 78),
+    Pokemon("Squirtle", 48, 43, 44),
+    Pokemon("Wartortle", 63, 58, 59),
+    Pokemon("Blastoise", 83, 78, 79),
+    Pokemon("Caterpie", 30, 45, 45),
+    Pokemon("Metapod", 20, 30, 50),
+    Pokemon("Butterfree", 45, 70, 60),
+    Pokemon("Weedle", 35, 50, 40),
+    Pokemon("Kakuna", 25, 35, 45),
+    Pokemon("Beedrill", 90, 75, 65),
+    Pokemon("Pidgey", 45, 56, 40),
+    Pokemon("Pidgeotto", 60, 71, 63),
+    Pokemon("Pidgeot", 80, 91, 83),
+    Pokemon("Rattata", 56, 72, 30),
+    Pokemon("Raticate", 81, 97, 55),
+    Pokemon("Spearow", 60, 70, 40),
+    Pokemon("Fearow", 90, 100, 65),
+    Pokemon("Ekans", 60, 55, 35),
+    Pokemon("Arbok", 85, 80, 60),
+    Pokemon("Pikachu", 55, 90, 35),
+    Pokemon("Raichu", 90, 110, 60),
+    Pokemon("Sandshrew", 75, 40, 50),
+    Pokemon("Sandslash", 100, 65, 75),
+    Pokemon("Nidoran♀", 47, 41, 55),
+    Pokemon("Nidorina", 62, 56, 70),
+    Pokemon("Nidoqueen", 82, 76, 90),
+    Pokemon("Nidoran♂", 57, 50, 46),
+    Pokemon("Nidorino", 72, 65, 61),
+    Pokemon("Nidoking", 92, 85, 81),
+    Pokemon("Clefairy", 45, 35, 70),
+    Pokemon("Clefable", 70, 60, 95),
+    Pokemon("Vulpix", 41, 65, 38),
+    Pokemon("Ninetales", 76, 100, 73),
+    Pokemon("Jigglypuff", 45, 20, 115),
+    Pokemon("Wigglytuff", 70, 45, 140),
+    Pokemon("Zubat", 45, 55, 40),
+    Pokemon("Golbat", 80, 90, 75),
+    Pokemon("Oddish", 50, 30, 45),
+    Pokemon("Gloom", 65, 40, 60),
+    Pokemon("Vileplume", 80, 50, 75),
+    Pokemon("Paras", 70, 25, 35),
+    Pokemon("Parasect", 95, 30, 60),
+    Pokemon("Venonat", 55, 45, 60),
+    Pokemon("Venomoth", 65, 90, 70),
+    Pokemon("Diglett", 55, 95, 10),
+    Pokemon("Dugtrio", 80, 120, 35),
+    Pokemon("Meowth", 45, 90, 40),
+    Pokemon("Persian", 70, 115, 65),
+    Pokemon("Psyduck", 52, 55, 50),
+    Pokemon("Golduck", 82, 85, 80),
+    Pokemon("Mankey", 80, 70, 40),
+    Pokemon("Primeape", 105, 95, 65),
+    Pokemon("Growlithe", 70, 60, 55),
+    Pokemon("Arcanine", 110, 95, 90),
+    Pokemon("Poliwag", 50, 90, 40),
+    Pokemon("Poliwhirl", 65, 90, 65),
+    Pokemon("Poliwrath", 85, 70, 90),
+    Pokemon("Abra", 20, 90, 25),
+    Pokemon("Kadabra", 35, 105, 40),
+    Pokemon("Alakazam", 50, 120, 55),
+    Pokemon("Machop", 80, 35, 70),
+    Pokemon("Machoke", 100, 45, 80),
+    Pokemon("Machamp", 130, 55, 90),
+    Pokemon("Bellsprout", 75, 40, 50),
+    Pokemon("Weepinbell", 90, 55, 65),
+    Pokemon("Victreebel", 105, 70, 80),
+    Pokemon("Tentacool", 40, 70, 40),
+    Pokemon("Tentacruel", 70, 100, 80),
+    Pokemon("Geodude", 80, 20, 40),
+    Pokemon("Graveler", 95, 35, 55),
+    Pokemon("Golem", 110, 45, 80),
+    Pokemon("Ponyta", 85, 90, 50),
+    Pokemon("Rapidash", 100, 105, 65),
+    Pokemon("Slowpoke", 65, 15, 90),
+    Pokemon("Slowbro", 75, 30, 95),
+    Pokemon("Magnemite", 35, 45, 25),
+    Pokemon("Magneton", 60, 70, 50),
+    Pokemon("Farfetch'd", 65, 60, 52),
+    Pokemon("Doduo", 85, 75, 35),
+    Pokemon("Dodrio", 110, 100, 60),
+    Pokemon("Seel", 45, 45, 65),
+    Pokemon("Dewgong", 70, 70, 90),
+    Pokemon("Grimer", 80, 25, 80),
+    Pokemon("Muk", 105, 50, 105),
+    Pokemon("Shellder", 65, 40, 30),
+    Pokemon("Cloyster", 95, 70, 50),
+    Pokemon("Gastly", 35, 80, 30),
+    Pokemon("Haunter", 50, 95, 45),
+    Pokemon("Gengar", 65, 110, 60),
+    Pokemon("Onix", 45, 70, 35),
+    Pokemon("Drowzee", 48, 42, 60),
+    Pokemon("Hypno", 73, 67, 85),
+    Pokemon("Krabby", 105, 50, 30),
+    Pokemon("Kingler", 130, 75, 55),
+    Pokemon("Voltorb", 30, 100, 40),
+    Pokemon("Electrode", 50, 140, 60),
+    Pokemon("Exeggcute", 40, 40, 60),
+    Pokemon("Exeggutor", 95, 55, 95),
+    Pokemon("Cubone", 50, 35, 50),
+    Pokemon("Marowak", 80, 45, 60),
+    Pokemon("Hitmonlee", 120, 87, 50),
+    Pokemon("Hitmonchan", 105, 76, 50),
+    Pokemon("Lickitung", 55, 30, 90),
+    Pokemon("Koffing", 65, 35, 40),
+    Pokemon("Weezing", 90, 60, 65),
+    Pokemon("Rhyhorn", 85, 25, 80),
+    Pokemon("Rhydon", 130, 40, 105),
+    Pokemon("Chansey", 5, 50, 250),
+    Pokemon("Tangela", 55, 60, 65),
+    Pokemon("Kangaskhan", 95, 90, 105),
+    Pokemon("Horsea", 40, 60, 30),
+    Pokemon("Seadra", 65, 85, 55),
+    Pokemon("Goldeen", 67, 63, 45),
+    Pokemon("Seaking", 92, 68, 80),
+    Pokemon("Staryu", 45, 85, 30),
+    Pokemon("Starmie", 75, 115, 60),
+    Pokemon("Mr. Mime", 45, 90, 40),
+    Pokemon("Scyther", 110, 105, 70),
+    Pokemon("Jynx", 50, 95, 65),
+    Pokemon("Electabuzz", 83, 105, 65),
+    Pokemon("Magmar", 95, 93, 65),
+    Pokemon("Pinsir", 125, 85, 65),
+    Pokemon("Tauros", 100, 110, 75),
+    Pokemon("Magikarp", 10, 80, 20),
+    Pokemon("Gyarados", 125, 81, 95),
+    Pokemon("Lapras", 85, 60, 130),
+    Pokemon("Ditto", 48, 48, 48),
+    Pokemon("Eevee", 55, 55, 55),
+    Pokemon("Vaporeon", 65, 65, 130),
+    Pokemon("Jolteon", 65, 130, 65),
+    Pokemon("Flareon", 130, 65, 65),
+    Pokemon("Porygon", 60, 40, 65),
+    Pokemon("Omanyte", 40, 35, 35),
+    Pokemon("Omastar", 60, 55, 70),
+    Pokemon("Kabuto", 80, 55, 30),
+    Pokemon("Kabutops", 115, 80, 60),
+    Pokemon("Aerodactyl", 105, 130, 80),
+    Pokemon("Snorlax", 110, 30, 160),
+    Pokemon("Articuno", 85, 85, 90),
+    Pokemon("Zapdos", 90, 100, 90),
+    Pokemon("Moltres", 100, 90, 90),
+    Pokemon("Dratini", 64, 50, 41),
+    Pokemon("Dragonair", 84, 70, 61),
+    Pokemon("Dragonite", 134, 80, 91),
+    Pokemon("Mewtwo", 110, 130, 106),
+    Pokemon("Mew", 100, 100, 100)
+]
